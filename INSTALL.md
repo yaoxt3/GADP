@@ -34,6 +34,8 @@ First, git clone this repo and `cd` into it.
 
 4.install r3m
 
+    cd 3D-Diffusion-Policy/third_party 
+    git clone https://github.com/facebookresearch/r3m.git
     pip install setuptools==59.5.0 Cython==0.29.35 patchelf==0.17.2.0
     cd r3m && pip install -e . && cd ..
 
