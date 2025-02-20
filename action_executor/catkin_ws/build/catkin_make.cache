@@ -1,0 +1,2 @@
+teng_arduino
+-DCATKIN_DEVEL_PREFIX=/home/yxt/thesis/yirui/for_upload/action_executor/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yxt/thesis/yirui/for_upload/action_executor/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,19 @@
+<launch>
+ <!-- Turtlesim Node-->
+  <node pkg="teng_arduino" type="joy_controller.py" name="joy_controller" output="screen"/>
+
+  <node pkg="teng_arduino" type="robot_control_only_robotiq2f.py" name="robot_control_only" output="screen">
+    <param name="robot_ip" value="192.168.178.12" type="str"/>
+  </node>
+
+ <!-- joy node -->
+  <node respawn="true" pkg="joy" type="joy_node" name="franka_joy" output="screen">
+    <param name="dev" type="string" value="/dev/input/js0" />
+    <param name="deadzone" value="0.12" />
+  </node>
+<!-- Axes -->
+  <!-- <param name="axis_linear" value="1" type="int"/>
+  <param name="axis_angular" value="0" type="int"/>
+  <param name="scale_linear" value="2" type="double"/>
+  <param name="scale_angular" value="2" type="double"/> -->
+</launch>

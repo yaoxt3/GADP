@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="action_infer" type="action_infer.py" name="action_infer" output="screen" />
+</launch>

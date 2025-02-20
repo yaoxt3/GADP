@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="teng_arduino" type="action_execution_no_pc_robotiq2f.py" name="robot_controller" output="screen">
+    <param name="robot_ip" value="192.168.178.12" type="str"/>
+  </node>
+</launch>

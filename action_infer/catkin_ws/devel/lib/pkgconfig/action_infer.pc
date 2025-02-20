@@ -1,0 +1,8 @@
+prefix=/home/yxt/thesis/yirui/catkin_workspace/devel
+
+Name: action_infer
+Description: Description of action_infer
+Version: 0.0.0
+Cflags: -I/home/yxt/thesis/yirui/catkin_workspace/devel/include
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs message_runtime

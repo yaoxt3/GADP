@@ -1,0 +1,2 @@
+set(teng_arduino_MESSAGE_FILES "/home/yxt/thesis/yirui/for_upload/action_executor/catkin_ws/src/teng_arduino/msg/channels.msg;/home/yxt/thesis/yirui/for_upload/action_executor/catkin_ws/src/teng_arduino/msg/channel.msg;/home/yxt/thesis/yirui/for_upload/action_executor/catkin_ws/src/teng_arduino/msg/TwistGripper.msg;/home/yxt/thesis/yirui/for_upload/action_executor/catkin_ws/src/teng_arduino/msg/ObsCache.msg;/home/yxt/thesis/yirui/for_upload/action_executor/catkin_ws/src/teng_arduino/msg/PoseAction.msg")
+set(teng_arduino_SERVICE_FILES "")

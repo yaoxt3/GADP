@@ -1,0 +1,2 @@
+action_infer
+-DCATKIN_DEVEL_PREFIX=/home/yxt/thesis/yirui/catkin_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/yxt/thesis/yirui/catkin_workspace/install -G Unix Makefiles

@@ -1,0 +1,5 @@
+<launch>    
+    <node pkg="teng_arduino" name="arduino_pub" type="arduino_pub.py" output="screen"/>
+    <node pkg="teng_arduino" name="arduino_multi_pub" type="arduino_mutli_pub.py" output="screen"/>
+
+</launch>

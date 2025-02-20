@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/tumi6/yxt/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/tumi6/yxt/catkin_ws/src/aruco_ros/aruco/include/**",
+        "/home/tumi6/yxt/catkin_ws/src/aruco_ros/aruco_ros/include/**",
+        "/home/tumi6/yxt/catkin_ws/src/teng_arduino/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
