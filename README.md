@@ -126,3 +126,16 @@ roslaunch teng_arduino action_execution_with_no_pc_robotiq2f.launch
 # Acknowledgement
 Our code is built upon: [3D Diffusion Policy](https://github.com/YanjieZe/3D-Diffusion-Policy.git), [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), [HybridGen](https://github.com/wangzivector/HybridGen.git), [Constrained Synthesis with Projected Diffusion Models](https://openreview.net/attachment?id=FsdB3I9Y24&name=supplementary_material), [GG-CNN](https://github.com/dougsm/ggcnn.git) We thank all these authors for their nicely open sourced code and their great contributions to the community.
 
+# Citation
+If you find our work useful, please consider citing:
+```
+@misc{yao2025pickandplacemanipulationgrippersretraining,
+      title={Pick-and-place Manipulation Across Grippers Without Retraining: A Learning-optimization Diffusion Policy Approach}, 
+      author={Xiangtong Yao and Yirui Zhou and Yuan Meng and Liangyu Dong and Lin Hong and Zitao Zhang and Zhenshan Bing and Kai Huang and Fuchun Sun and Alois Knoll},
+      year={2025},
+      eprint={2502.15613},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2502.15613}, 
+}
+```
