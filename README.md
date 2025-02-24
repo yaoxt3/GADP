@@ -122,6 +122,7 @@ cd ./action_executor/catkin_ws/
 source devel/setup.bash
 roslaunch teng_arduino action_execution_with_no_pc_robotiq2f.launch
 ```
+## Videos, training data, and model weights are being organized.
 
 # Acknowledgement
 Our code is built upon: [3D Diffusion Policy](https://github.com/YanjieZe/3D-Diffusion-Policy.git), [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), [HybridGen](https://github.com/wangzivector/HybridGen.git), [Constrained Synthesis with Projected Diffusion Models](https://openreview.net/attachment?id=FsdB3I9Y24&name=supplementary_material), [GG-CNN](https://github.com/dougsm/ggcnn.git) We thank all these authors for their nicely open-sourced code and their great contributions to the community.
