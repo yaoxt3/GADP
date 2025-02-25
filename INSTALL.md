@@ -41,9 +41,10 @@ First, git clone this repo and `cd` into it.
 
 ----
 
-5.install pytorch3d (a simplified version)
+5.install pytorch3d
 
-    cd third_party/pytorch3d_simplified && pip install -e . && cd ..
+    cd 3D-Diffusion-Policy/third_party 
+    
 
 ---
 
