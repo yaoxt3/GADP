@@ -176,17 +176,12 @@
       <video poster="" id="tree" autoplay controls muted loop height="100%">
         <!-- Your video here -->
         <!-- <source src="static/videos/banner_video.mp4" type="video/mp4"> -->
-        <source src="static/videos/DAHLIA-movie.mp4" type="video/mp4">
+        <source src="static/videos/GADP_PRE.mp4" type="video/mp4">
       </video>
       <h2 class="subtitle has-text-justified">
-        <b>Simulation and real-world demonstrations of DAHLIA framework in solving long-horizon tasks</b>. 
-            This study introduces DAHLIA, an efficient framework for embodied long-horizon manipulation, 
-            leveraging LLMs to directly interpret high-level language instructions and dynamically generate 
-            actionable motion primitives. The framework employs a planner-reporter dual-tunnel architecture, 
-            forming a closed-loop feedback system that enables self-checking, significantly improving robustness 
-            and success rates. By integrating temporal abstraction in action execution and chain-of-thought 
-            reasoning in task planning, DAHLIA demonstrates strong generalization across diverse long-horizon 
-            manipulation tasks, achieving high success rates in both seen and unseen scenarios.
+        <b>Pick-and-place manipulation cross grippers without retraining </b> is a diffusion-based policy for transferring pick-and-place knowledge across different grippers. 
+          This knowledge transition does not require retraining or fine-turning the policy with the new gripper’s configuration. 
+          Instead, it only needs to introduce the configuration in the policy inference phase and make the generated trajectories satisfy safety constraints, ensuring the successful completion of pick-and-place tasks.
       </h2>
     </div>
   </div>
@@ -439,10 +434,10 @@
             evaluation to the planner. 
           </p>
         </div>
-        <img src="static/images/framework.jpg" class="interpolation-image" alt="Interpolate start reference image.">
+        <img src="static/images/framework.png" class="interpolation-image" alt="Interpolate start reference image.">
         <br>
         <br>
-            <b>Fig. 1:</b> Framework of DAHLIA. 
+            <b>Fig. 1:</b> Framework of GADP. 
             Our framework utilizes a dual-tunnel structure to implement a planner-reporter closed-loop feedback mechanism for 
             various long-horizon manipulation tasks. The planner, powered by LLMs, converts high-level language instructions 
             and initial state into task plans, leveraging available LMPs/APIs to generate multi-step motion primitives with the
@@ -676,24 +671,6 @@
 
 
 <!-- Youtube video -->
-<!-- <section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container"> -->
-      <!-- Paper video. -->
-      <!-- <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video"> -->
-            <!-- Youtube embed code here -->
-            <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-            <!-- <iframe src="https://assets-eu.researchsquare.com/files/rs-4353532/v1/d8c2289d1ccbba09ee8c9558.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
 <!-- End youtube video -->
 
 
