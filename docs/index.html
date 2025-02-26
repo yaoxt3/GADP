@@ -210,10 +210,7 @@
 
 <section class="section">
   <div class="container is-max-widescreen" bis_skin_checked="1">
-
     <div class="rows" bis_skin_checked="1">
-
-
     <!-- Animation. -->
     <div class="rows is-centered " bis_skin_checked="1">
       <div class="row is-full-width" bis_skin_checked="1">
@@ -232,130 +229,198 @@
         </div>
         <br>
         <div style="text-align: center;">
-          <b>Fig. 1:</b> Framework of GADP
+          <b>Fig. 1:</b> Framework of GADP. (a) The multi-modal observation consists of robot pose S<sub>rot</sub><sup>'</sup>, scene point clouds S<sub>sce</sub>, and grasping probability map <b>G<sub>prob</sub><sup>*</sup></b>. 
+          Gripper morphological variations are encoded into S<sub>rot</sub><sup>'</sup> via gripper mapping. (b) Safety-Constrained trajectory projection via online optimization process, 
+          enforcing the executive trajectory to satisfy task and safety constraints.
         </div>
         <br>
+      </div>
+    </div>
+    <section class="hero is-light is-small">
+      <div class="hero-body">
+        <style>
+          /* Ensure each video item has the same width/height ratio */
+          .results-carousel .item video {
+            width: 50%;
+            height: auto;
+            object-fit: cover; /* optional for consistent cropping */
+          }
+        </style>
+        <div class="container is-max-widescreen" bis_skin_checked="1">
+          <div class="rows" bis_skin_checked="1">
+            <!-- Animation. -->
+            <div class="rows is-centered " bis_skin_checked="1">
+              <div class="row is-full-width" bis_skin_checked="1">
+                <div class="content has-text-justified" bis_skin_checked="1">
+                  <p>
+                    We demonstrate the robotness of our policy completing pick-and-place task safely on seen object (block) and unseen object (banana) on a Franka Panda robot with 6 different grippers, including 3D-printed fingertips and Robotiq 2F-85 gripper.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div id="results-carousel" class="carousel results-carousel">
+            <div class="item item-odd">
+              <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media1.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-most">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media2.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-divide">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media3.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-bisector">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media4.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-fixture">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media5.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-fixture">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media6.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hero is-light is-small">
+      <div class="hero-body">
+        <style>
+          /* Ensure each video item has the same width/height ratio */
+          .results-carousel .item video {
+            width: 50%;
+            height: auto;
+            object-fit: cover; /* optional for consistent cropping */
+          }
+        </style>
+        <div class="container is-max-widescreen" bis_skin_checked="1">
+          <div class="rows" bis_skin_checked="1">
+            <!-- Animation. -->
+            <div class="rows is-centered " bis_skin_checked="1">
+              <div class="row is-full-width" bis_skin_checked="1">
+                <div class="content has-text-justified" bis_skin_checked="1">
+                  <p>
+                    Our policy also ensures the completion of pick-and-place task for various kinds of unseen objects in variation of placed positions.
+                    Even though the quality of point cloud is imprecise (generated by Intel® RealSense™ Depthcamera D455).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div id="results-carousel" class="carousel results-carousel">
+            <div class="item item-odd">
+              <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media7.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-most">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media8.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-divide">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media9.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-bisector">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media10.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-fixture">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media11.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-fixture">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media12.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div></section>
+
+<section class="section">
+  <div class="container is-max-widescreen" bis_skin_checked="1">
+    <div class="rows" bis_skin_checked="1">
+    <!-- Animation. -->
+    <div class="rows is-centered " bis_skin_checked="1">
+      <div class="row is-full-width" bis_skin_checked="1">
+        <h3 class="title is-4">Grasping Probability Map</h3>
+        <div class="content has-text-justified" bis_skin_checked="1">
+          <p>
+            Visuomotor policies, like Diffusion policy and 3D Diffusion Policy, depend on visual observations to generate robot trajectories. 
+            However, swapping out different grippers during the online execution can alter visual observations (both RGB and point cloud inputs).
+            To address this issue, we propose a grasping probability map <b>G<sub>prob</sub><sup>*</sup></b> that encodes the probability of successful grasping at each pixel in the image.
+            We adopt the Generative Grasping CNN (GG-CNN) for <b>G<sub>prob</sub><sup>*</sup></b> synthesis from depth images.
+            To mitigate the problem of variations of grasping probability while moving and lighting changes, 
+            we modifiy GG-CNN so the spatial filtering maintains grasp affordance information while eliminating outlier predictions caused by sensor noise, as shown in Fig. 2. 
+          </p>
+        </div>
+        <div class="columns is-centered">
+          <div class="column is-half" style="text-align: center;">
+            <figure>
+              <img src="static/images/gstar2.png" style="width: 60%; height: auto;" alt="Image 2">
+              <figcaption><b>Fig. 2:</b> The gripper-agnostic grasping knowledge. Dynamic changes in robot pose and gripper variants cause changes in visual observations, including RGB-D images and object grasp probabilities, <b>G<sub>prob</sub><sup>*</sup></b> provides stable visual information.</figcaption>
+            </figure>
+          </div>
+          <div class="column is-half" style="text-align: center;">
+            <figure>
+              <img src="static/images/gstar.png" style="width: 100%; height: auto;" alt="Image 1">
+              <figcaption><b>Fig. 3:</b> Grasping probabilities map under different conditions.</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="content has-text-justified" bis_skin_checked="1">
+          <p>
+            We evaluate the stability of grasping probability maps under three perturbation scenarios, 
+            including graspable object variation, gripper morphology, and viewpoint changes (i.g. end-effector heights).
+            Fig. 3 presents the difference between original GG-CNN grasping probability map <b>G<sub>prob</sub></b> and 
+            our proposed grasping probability map <b>G<sub>prob</sub><sup>*</sup></b> under different scenarios through normalized probability histograms, here only shows high-probability parts (> 0.4).
+          </p>
+        </div>
+        </div>
       </div>
     </div>
 
   </div>
 </div></section>
 
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <style>
-      /* Ensure each video item has the same width/height ratio */
-      .results-carousel .item video {
-        width: 60%;
-        height: auto;
-        object-fit: cover; /* optional for consistent cropping */
-      }
-    </style>
-
-    <div class="container">
-      
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-odd">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media1.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-most">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-divide">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media3.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-bisector">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media4.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fixture">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media5.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fixture">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media6.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <style>
-      /* Ensure each video item has the same width/height ratio */
-      .results-carousel .item video {
-        width: 60%;
-        height: auto;
-        object-fit: cover; /* optional for consistent cropping */
-      }
-    </style>
-
-    <div class="container">
-      
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-odd">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media7.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-most">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media8.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-divide">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media9.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-bisector">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media10.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fixture">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media11.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fixture">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media12.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="section">
   <div class="container is-max-widescreen" bis_skin_checked="1">
-
     <div class="rows" bis_skin_checked="1">
-
       <!-- Animation. -->
       <div class="rows is-centered " bis_skin_checked="1">
         <div class="row is-full-width" bis_skin_checked="1">
@@ -366,14 +431,15 @@
               (ii) validate different policy's generalization for pick-and-place tasks across diverse two-finger grippers without retraining the policy, 
               and (iii) assess the generated trajectory's safety and task completion issues across different policies. 
               We define one success of pick-and-place task as picking the object from the tabletop and placing it on a box is a successful trial.
-              All other outcomes are deemed failures, including failure to grasp the object or dropping it during manipulation. The real-robot experiment is conducted on 6 differen grippers.
+              All other outcomes are deemed failures, including failure to grasp the object or dropping it during manipulation.
+              The real-robot experiment is conducted on 6 different grippers.
             </p>
             <br>
             <div style="text-align: center;">
               <img src="static/images/grippers.png" class="interpolation-image" alt="Interpolate start reference image.">
             </div>
             <div style="text-align: center;">
-              <b>Fig. 2:</b> Gripper variants of different morphologies. (Unit: cm)
+              <b>Fig. 4:</b> Gripper variants of different morphologies. (Unit: cm)
             </div>
             <br>
             <p>
@@ -381,6 +447,7 @@
               We also conduct conduct ablation studies to evaluate the effectiveness of our method via (i) Ours w/o <b>Projection</b> and (ii) Ours w/o <b>Grasping Probability
               Maps G<sub>prob</sub><sup>*</sup> </b>:
             </p>
+            <br>
             <table>
               <caption>Average success rates (%) for pick-and-place task on seen object (block)</caption>
               <tr>
@@ -402,6 +469,7 @@
               <tr class="gray-row"><td>Ours w/o G<sub>prob</sub><sup>*</sup></td><td>80</td><td>20</td><td>40</td><td>80</td><td>100</td><td>0</td><td><td>53.3</td></tr>
               <td>Our method</td><td><b>100</b></td><td><b>80</b></td><td><b>100</b></td><td><b>80</b></td><td><b>100</b></td><td><b>100</b></td><td><td><b>93.3</b></td></tr>
             </table>
+            <br>
             <table>
               <caption>Average success rates (%) for pick-and-place task on unseen object (banana)</caption>
               <tr>
@@ -424,126 +492,149 @@
           </div>
         </div>
       </div>
-
     </div>
-  </div>
-</section>
-
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <style>
-      /* Ensure each video item has the same width/height ratio */
-      .results-carousel .item video {
-        width: 60%;
-        height: auto;
-        object-fit: cover; /* optional for consistent cropping */
-      }
-    </style>
-
-    <div class="container">
-      
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-odd">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media13.mp4"
-                    type="video/mp4">
-          </video>
+    <section class="hero is-light is-small">
+      <div class="hero-body">
+        <style>
+          /* Ensure each video item has the same width/height ratio */
+          .results-carousel .item video {
+            width: 50%;
+            height: auto;
+            object-fit: cover; /* optional for consistent cropping */
+          }
+        </style>
+        <div class="container is-max-widescreen" bis_skin_checked="1">
+          <div class="rows" bis_skin_checked="1">
+            <!-- Animation. -->
+            <div class="rows is-centered " bis_skin_checked="1">
+              <div class="row is-full-width" bis_skin_checked="1">
+                <div class="content has-text-justified" bis_skin_checked="1">
+                  <p>
+                    We also analyze how <b>gripper mapping</b> and <b>safety-constrained trajectory projection</b> ensure safe
+                    trajectory generation across different grippers. Baseline policies Diffusion Policy and Diffusion Policy 3D often result in collisions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="item item-most">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media15.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-divide">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media16.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-bisector">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media17.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fixture">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media18.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fixture">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media21.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fixture">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media19.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fixture">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media22.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fixture">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media23.mp4"
-                    type="video/mp4">
-          </video>
+        <br>
+        <div class="container">
+          <div id="results-carousel" class="carousel results-carousel">
+            <div class="item item-odd">
+              <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media13.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-most">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media15.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-divide">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media16.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-bisector">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media17.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-fixture">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media18.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-fixture">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media21.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-fixture">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media19.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-fixture">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media22.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-fixture">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media23.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <style>
-      /* Ensure each video item has the same width/height ratio */
-      .results-carousel .item video {
-        width: 60%;
-        height: auto;
-        object-fit: cover; /* optional for consistent cropping */
-      }
-    </style>
-
-    <div class="container">
-      
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-odd">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media20.mp4"
-                    type="video/mp4">
-          </video>
+    </section>
+    <section class="hero is-light is-small">
+      <div class="hero-body">
+        <style>
+          /* Ensure each video item has the same width/height ratio */
+          .results-carousel .item video {
+            width: 50%;
+            height: auto;
+            object-fit: cover; /* optional for consistent cropping */
+          }
+        </style>
+        <div class="container is-max-widescreen" bis_skin_checked="1">
+          <div class="rows" bis_skin_checked="1">
+            <!-- Animation. -->
+            <div class="rows is-centered " bis_skin_checked="1">
+              <div class="row is-full-width" bis_skin_checked="1">
+                <div class="content has-text-justified" bis_skin_checked="1">
+                  <p>
+                    After introducing the <b>safety-constrained trajectory projection</b> to DP and DP 3D on the inference phase, the generated motions are projected within the defined safety constraints, 
+                    enabling both policies to successfully complete the task without collisions
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="item item-most">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/media14.mp4"
-                    type="video/mp4">
-          </video>
+        <br>
+        <div class="container">
+          <div id="results-carousel" class="carousel results-carousel">
+            <div class="item item-odd">
+              <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media20.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-most">
+              <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/media14.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   </div>
 </section>
+
+
 
 <!-- Image carousel -->
 
 <!-- End image carousel -->
 
-
-
-
 <!-- Youtube video -->
 
 <!-- End youtube video -->
-
 
 <!-- Video carousel -->
 
