@@ -44,7 +44,8 @@ First, git clone this repo and `cd` into it.
 5.install pytorch3d
 
     cd 3D-Diffusion-Policy/third_party 
-    
+    git clone https://github.com/facebookresearch/pytorch3d.git
+    cd pytorch3d && pip install -e . && cd ..
 
 ---
 
