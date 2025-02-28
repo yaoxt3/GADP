@@ -1,4 +1,4 @@
-# Pick-and-place manipulation cross grippers without retraining via Learning-optimization Diffusion Policy
+# Pick-and-place Manipulation Cross Grippers Without Retraining: A Learning-optimization Diffusion Policy Approach
 ### [[Project Website]](https://yaoxt3.github.io/GADP/) 
 <div align="center">
   <img src="framework.png" alt="dp3" width="100%">
